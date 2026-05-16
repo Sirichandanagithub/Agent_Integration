@@ -1,0 +1,37 @@
+# ── LangGraph + LangChain core ─────────────────────────────
+langgraph
+langchain
+langchain-core
+langchain-community
+pydantic-settings
+
+# ── API backend ────────────────────────────────────────────
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+websockets==14.1
+python-dotenv==1.0.1
+pydantic==2.10.4
+
+# ── ServiceNow REST integration ────────────────────────────
+requests==2.32.3
+httpx==0.28.1                    # async HTTP (used by FastAPI)
+
+# ── Conversation memory ────────────────────────────────────
+redis==5.2.1                     # production memory store
+# sqlite3 is built-in Python — fine for local dev
+
+# ── Snowflake (add when ready) ─────────────────────────────
+# snowflake-sqlalchemy==1.6.1
+# snowflake-connector-python==3.12.3
+
+# ── RAG / Vector DB (optional, add later) ─────────────────
+# chromadb==0.5.23
+# sentence-transformers==3.3.1
+# langchain-chroma==0.1.4
+
+# ── Dev & testing ──────────────────────────────────────────
+pytest==8.3.4
+pytest-asyncio==0.25.0
+black==24.10.0
+langchain-google-genai
+streamlit 
