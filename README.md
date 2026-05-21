@@ -1,4 +1,4 @@
-# 🤖 Enterprise ServiceNow AI Assistant
+# 🤖 Enterprise AI Assistant
 
 An **Agentic AI-powered ServiceNow chatbot** that intelligently answers IT incident-related questions using **LangGraph, LangChain, Gemini, and ServiceNow APIs**.
 
